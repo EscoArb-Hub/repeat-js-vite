@@ -147,7 +147,7 @@ button.accent {
 }
 
 #buttons-box.active {
-    background-color: lightcyan;
+    background-color: rgb(4, 170, 170);
 }
 
 .buttons-box-button {
@@ -160,7 +160,7 @@ button.accent {
 } */
 
 .buttons-box-button.active {
-    background-color: lightgreen;
+    background-color: rgb(12, 230, 12);
 }
 
 /*? Палітра кольорів */
@@ -193,4 +193,42 @@ button.accent {
 
 .color-palette .item:hover {
     transform: scale(1.1);
+}
+.box1{
+    padding: 20px;
+    background-color: rgb(255, 255, 164);
+}
+.find-name{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px red solid;
+    width: 150px;
+    height: 25px;
+    background-color: #dfffdf;
+    margin-bottom: 20px;
+}
+.find-year{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.find-list{
+    /* width: 800px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.find-item{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    background-color: rgb(189, 255, 189);
+    border: red 1px solid;
+    padding: 15px;
+}
+.find-img{
+    width: 100%;
 }
